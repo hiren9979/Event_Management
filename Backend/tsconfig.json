@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "strictNullChecks": true,
+    "declaration": false,
+    "module": "commonJS",
+    "rootDir": "./ts",
+    "outDir": "build",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["es2017"]
+  },
+  "include": ["ts/**/*"],
+  "exclude": ["build"],
+  "compileOnSave": true,
+  "files": ["tsconfig.json"]
+}

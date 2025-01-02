@@ -1,0 +1,32 @@
+{
+  "name": "sample-node-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node ts/server.ts",
+    "start": "node build/server.js",
+    "build": "tsc",
+    "js": "tsc ts/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/mysql": "^2.15.26",
+    "@types/node": "^22.10.2",
+    "@types/uuid": "^10.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql": "^2.18.1",
+    "uuid": "^10.0.0"
+  }
+}
